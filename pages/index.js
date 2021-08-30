@@ -8,7 +8,7 @@ export default function Home() {
       <form
         method="post"
         action="/api/receive-file"
-        enctype="multipart/form-data"
+        encType="multipart/form-data"
       >
         <input type="file" id="testFile" name="testFile" />
         <button type="submit">Upload</button>
